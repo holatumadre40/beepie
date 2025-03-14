@@ -2088,3 +2088,20 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [14Mar2025 22:43:44.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has reached the goal [Dinner's Served!]
 [14Mar2025 22:46:47.811] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [14Mar2025 22:46:47.824] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 22:51:47.797] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Mar2025 22:51:47.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 22:51:53.530] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: blueby87 lost connection: Disconnected
+[14Mar2025 22:51:53.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 left the game
+[14Mar2025 22:52:00.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Mar2025 22:52:00.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Mar2025 22:52:00.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Mar2025 22:52:00.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Mar2025 22:52:01.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Mar2025 22:52:01.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Mar2025 22:52:01.821] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Mar2025 22:52:01.826] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 22:52:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Mar2025 22:52:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Mar2025 22:52:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Mar2025 22:52:01.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Mar2025 22:52:01.850] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
