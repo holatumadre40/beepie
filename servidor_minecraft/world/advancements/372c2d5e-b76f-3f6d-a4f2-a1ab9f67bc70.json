@@ -1,0 +1,18 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-14 18:16:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2025-03-14 18:22:42 +0000",
+      "minecraft:stony_shore": "2025-03-14 18:16:10 +0000",
+      "minecraft:forest": "2025-03-14 18:22:21 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-14 18:17:11 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
