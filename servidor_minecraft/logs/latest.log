@@ -1,21 +1,21 @@
-[15Mar2025 03:53:09.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[15Mar2025 03:53:09.488] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[15Mar2025 03:53:10.139] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[15Mar2025 03:53:10.188] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/beepie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[15Mar2025 03:53:10.591] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[15Mar2025 03:53:10.593] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Mar2025 03:53:10.595] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Mar2025 03:53:10.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[15Mar2025 03:53:10.842] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[15Mar2025 03:53:10.939] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-	Mod ID: 'cupboard', Requested by: 'fastasyncworldsave', Expected range: '[1.20.1-1.4,)', Actual version: '[MISSING]'
-	Mod ID: 'cupboard', Requested by: 'connectivity', Expected range: '[1.20.1-1.5,)', Actual version: '[MISSING]'
+[15Mar2025 03:54:00.471] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[15Mar2025 03:54:00.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[15Mar2025 03:54:01.284] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[15Mar2025 03:54:01.331] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/beepie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[15Mar2025 03:54:01.682] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 03:54:01.683] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 03:54:01.684] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 03:54:01.685] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 03:54:01.859] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[15Mar2025 03:54:01.969] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
 	Mod ID: 'cupboard', Requested by: 'limitedchunks', Expected range: '[1.20.1-1.5,)', Actual version: '[MISSING]'
 	Mod ID: 'octolib', Requested by: 'nerb', Expected range: '[0.4.2,)', Actual version: '[MISSING]'
+	Mod ID: 'cupboard', Requested by: 'connectivity', Expected range: '[1.20.1-1.5,)', Actual version: '[MISSING]'
 	Mod ID: 'cupboard', Requested by: 'smoothchunk', Expected range: '[1.20.1-1.5,)', Actual version: '[MISSING]'
-[15Mar2025 03:53:12.220] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[15Mar2025 03:53:17.609] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
-net.minecraftforge.fml.ModLoadingException: Mod §efastasyncworldsave§r requires §6cupboard§r §o1.20.1-1.4 or above§r
+	Mod ID: 'cupboard', Requested by: 'fastasyncworldsave', Expected range: '[1.20.1-1.4,)', Actual version: '[MISSING]'
+[15Mar2025 03:54:03.309] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[15Mar2025 03:54:08.589] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §elimitedchunks§r requires §6cupboard§r §o1.20.1-1.5 or above§r
 §7Currently, §6cupboard§r§7 is §o§nnot installed
 	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
@@ -52,18 +52,18 @@ net.minecraftforge.fml.ModLoadingException: Mod §efastasyncworldsave§r require
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[15Mar2025 03:53:17.685] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-03-15_03.53.17-fml.txt
-[15Mar2025 03:53:17.687] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[15Mar2025 03:54:08.704] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-03-15_03.54.08-fml.txt
+[15Mar2025 03:54:08.706] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Mod §efastasyncworldsave§r requires §6cupboard§r §o1.20.1-1.4 or above§r
-§7Currently, §6cupboard§r§7 is §o§nnot installed,
-	Mod §econnectivity§r requires §6cupboard§r §o1.20.1-1.5 or above§r
-§7Currently, §6cupboard§r§7 is §o§nnot installed,
 	Mod §elimitedchunks§r requires §6cupboard§r §o1.20.1-1.5 or above§r
 §7Currently, §6cupboard§r§7 is §o§nnot installed,
 	Mod §enerb§r requires §6octolib§r §o0.4.2 or above§r
 §7Currently, §6octolib§r§7 is §o§nnot installed,
+	Mod §econnectivity§r requires §6cupboard§r §o1.20.1-1.5 or above§r
+§7Currently, §6cupboard§r§7 is §o§nnot installed,
 	Mod §esmoothchunk§r requires §6cupboard§r §o1.20.1-1.5 or above§r
+§7Currently, §6cupboard§r§7 is §o§nnot installed,
+	Mod §efastasyncworldsave§r requires §6cupboard§r §o1.20.1-1.4 or above§r
 §7Currently, §6cupboard§r§7 is §o§nnot installed
 ]
 	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.3.7.jar%23232!/:?]
