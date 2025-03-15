@@ -1,0 +1,17 @@
+{
+	id: "372c2d5e-b76f-3f6d-a4f2-a1ab9f67bc70"
+	type: "player"
+	player_name: "blueby87"
+	ranks: {
+		372c2d5e-b76f-3f6d-a4f2-a1ab9f67bc70: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "blueby87"
+		"ftbteams:description": ""
+		"ftbteams:color": "#596EFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

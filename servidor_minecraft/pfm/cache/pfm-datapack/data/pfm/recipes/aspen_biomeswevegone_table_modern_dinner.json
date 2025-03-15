@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:aspen_biomeswevegone_table_modern_dinner"
+  }
+}

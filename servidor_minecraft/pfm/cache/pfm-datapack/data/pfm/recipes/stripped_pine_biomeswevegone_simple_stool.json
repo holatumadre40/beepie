@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_pine_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_pine_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_pine_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_pine_biomeswevegone_simple_stool"
+  }
+}

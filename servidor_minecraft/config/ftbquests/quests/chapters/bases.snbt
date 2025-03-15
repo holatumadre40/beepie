@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bases"
+	group: "6DC2CEF4D1F28C5C"
+	icon: "minecraft:apple"
+	id: "57460A6C97F4621C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "all_started"
+			description: [
+				"Algunos controles que debes tener en cuenta a la hora de jugar!!"
+				""
+				"&cY: &fApreta esta tecla para editar el minimapa a tu gusto!"
+				""
+				"&cU: &fApreta esta tecla para crear un waypoint!"
+				""
+				"&cG: &fApreta esta tecla para cambiar tu modelo de personaje!"
+				""
+				"&cN: &fApreta esta tecla para ver tus misiones!"
+				""
+				"&cC: &fApreta esta tecla para hacer zoom!"
+				""
+				"Ademas, si aprietas el boton de la rueda de el mouse podras hacer in ping como en fortnite!!!!!!!!!!!!!!!!!!!!"
+				""
+				"Dale click al boton gris para completar la mision"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "decocraft:gameboy"
+			id: "38916728AC97BBF3"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3696BB0C31AAFF27"
+				item: "camera:camera"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 4.0d
+			subtitle: "Aprende a jugar"
+			tasks: [{
+				id: "08CD7A4E21CC966A"
+				title: "Clickeame"
+				type: "checkmark"
+			}]
+			title: "Controles"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38916728AC97BBF3"]
+			description: [
+				"El sistema de combate esta un poco cambiado"
+				""
+				"Aqui debes mantener el click apretado para realizar un combo con tu arma, entre mas cerca estes de tu objetivo mas daño realizaras"
+				""
+				"Debes fijarte en que arma usaras, pues tienen combos diferentes y algunas son pesada, por lo que usaras ambas manos para agarrarla, por lo que no podras tener nada en la segunda mano como un escudo o totem"
+				""
+				"Puedes esquivar un ataque apretando la tecla &cR&f"
+				""
+				"Creafteate una espada y practica!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DFC26D9F0644164"
+			rewards: [{
+				id: "1C72AE2E080FDCB7"
+				type: "xp"
+				xp: 150
+			}]
+			size: 2.0d
+			subtitle: "Aprende a pelear"
+			tasks: [{
+				id: "430F0255428445B2"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Combate"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38916728AC97BBF3"]
+			description: [
+				"Las waystones son piedras que te ayudaran a teletransportarte a un lugar que quieras, ya sea tu casa una aldea o algun lugar de interes"
+				""
+				"Intenta craftear una! son muy utiles"
+			]
+			id: "7AF4E2C16A9D58C0"
+			rewards: [{
+				id: "6988AC16B3872323"
+				type: "xp"
+				xp: 150
+			}]
+			size: 2.0d
+			subtitle: "Una forma facil de transporte!"
+			tasks: [{
+				id: "13427A93BA544374"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38916728AC97BBF3"]
+			description: [
+				"Corail tombstone es un mod donde te volveras uno con la muerte"
+				""
+				"Al morir se generara una tumba la cual puedes personalizar a tu gusto con la tecla &cR&f, al hacerlo recibiras un logro asi que deberias hacerlo"
+				""
+				"Pero este mod no solo agrega tumbas y ya, hay muchas cosas que puedes hacer como curar aldeanos zombies, encantar o desencantar objetos con almas de tumbas y una variedad de echizos y tabletas magicas que te pueden servir!"
+				""
+				"Tambien al avanzar en el mod tu conocimiento de la muerte aumentara, lo que te dara puntos para mejorar una serie de habilidades como perder menos experiencia al morir o mejorar tus encantamientos, apretando la tecla  &cV&f entraras a este menu!"
+			]
+			icon: {
+				Count: 1
+				id: "tombstone:decorative_grave_simple"
+				tag: {
+					model_texture: 0
+				}
+			}
+			id: "3A1F84F5D275F3E5"
+			rewards: [{
+				count: 15
+				id: "4E5FE532DF53F69C"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Aprende a morir...?"
+			tasks: [{
+				id: "1082387774D73091"
+				title: "Tumbas"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38916728AC97BBF3"]
+			description: [
+				"Apretando la tecla &cM&f se abrira un menu con un arbol grande de habilidades, en este eligiras una clase en donde empezar (los modulos grandes de oro) "
+				""
+				"para obtener puntos usas tu experiencia, abajo puedes ver cuanto necesitaras para el siguiente punto"
+			]
+			icon: "twilightforest:time_sapling"
+			id: "1E143531182E526F"
+			rewards: [{
+				id: "1DBBFA8BACC8D7E8"
+				type: "xp"
+				xp: 300
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "547F788BC1159741"
+				title: "Arbol de habilidades"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Aprende las bases del server!"]
+	title: "Bases"
+}

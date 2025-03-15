@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "minecraft:white_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:tainted_witherstormmod_white_simple_bed"
+  }
+}

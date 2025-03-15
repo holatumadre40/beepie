@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "minecraft:lime_bed"
+    },
+    {
+      "item": "biomeswevegone:baobab_fence"
+    },
+    {
+      "item": "biomeswevegone:baobab_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:baobab_biomeswevegone_lime_classic_bed"
+  }
+}

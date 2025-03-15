@@ -35,7 +35,7 @@
 		#True if mausoleums are allowed to generate
 		"Generate Mausoleums" = true
 		#Whether to generate graveyards or not
-		"Generate Graveyards" = true
+		"Generate Graveyards" = false
 		#True if gorgon temples are allowed to spawn
 		"Generate Gorgon Temple" = true
 
@@ -63,7 +63,7 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 500.0
+		"Dragon Health" = 300.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 17
@@ -90,7 +90,7 @@
 		#Range: 0 ~ 10000
 		"Dragon Gold Search Length" = 30
 		#Whether the bite attack from a dragon heals them or not.
-		"Dragon Bite Heal" = true
+		"Dragon Bite Heal" = false
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
 		"Dragons Despawn" = true
 		#True if tamed dragons go to sleep at night.
@@ -110,7 +110,7 @@
 		"Dragon Target Search Length" = 128
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
-		"Dragon Wander From Home Distance" = 40
+		"Dragon Wander From Home Distance" = 20
 		#Every interval of this number in ticks, dragon hunger decreases.
 		#Range: 1 ~ 10000
 		"Dragon Hunger Tick Rate" = 3000
@@ -129,10 +129,10 @@
 	[Mobs.Pixies]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Pixies Chance" = 60
+		"Spawn Pixies Chance" = 20
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 5
+		"Pixie Village Size" = 3
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = true
 
@@ -291,7 +291,7 @@
 	[Mobs.SeaSerpents]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 50
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -346,7 +346,7 @@
 		#Range: 0.0 ~ 10000.0
 		"Ghost Attack Strength" = 3.0
 		#True if ghosts can rarely spawn from brutal PvP deaths.
-		"Ghost Spawn from PvP deaths" = true
+		"Ghost Spawn from PvP deaths" = false
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 0 ~ 10000
 		"Villager Scribe House Weight" = 5

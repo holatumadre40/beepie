@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_skyris_biomeswevegone_coffee_table_basic"
+  }
+}

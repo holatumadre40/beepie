@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_blue_enchanted_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_blue_enchanted_biomeswevegone_classic_nightstand"
+  }
+}

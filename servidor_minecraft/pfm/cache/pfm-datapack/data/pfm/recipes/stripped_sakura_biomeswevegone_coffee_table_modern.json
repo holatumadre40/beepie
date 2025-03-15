@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_sakura_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_sakura_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_sakura_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_sakura_biomeswevegone_coffee_table_modern"
+  }
+}

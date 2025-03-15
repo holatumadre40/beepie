@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:ironwood_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:ironwood_biomeswevegone_kitchen_counter"
+  }
+}

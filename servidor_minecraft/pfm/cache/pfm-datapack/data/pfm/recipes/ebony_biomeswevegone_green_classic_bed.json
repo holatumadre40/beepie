@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "minecraft:green_bed"
+    },
+    {
+      "item": "biomeswevegone:ebony_fence"
+    },
+    {
+      "item": "biomeswevegone:ebony_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:ebony_biomeswevegone_green_classic_bed"
+  }
+}

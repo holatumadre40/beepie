@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:mahogany_biomeswevegone_raw_table_log"
+  }
+}

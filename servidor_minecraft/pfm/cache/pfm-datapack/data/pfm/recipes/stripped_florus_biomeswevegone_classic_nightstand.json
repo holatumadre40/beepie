@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_florus_stem"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_florus_biomeswevegone_classic_nightstand"
+  }
+}

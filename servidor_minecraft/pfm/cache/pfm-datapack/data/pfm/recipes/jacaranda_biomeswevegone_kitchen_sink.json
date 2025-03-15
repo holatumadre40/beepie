@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "pfm:jacaranda_biomeswevegone_kitchen_sink"
+  }
+}

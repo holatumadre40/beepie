@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "minecraft:red_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:maple_biomeswevegone_red_simple_bed"
+  }
+}

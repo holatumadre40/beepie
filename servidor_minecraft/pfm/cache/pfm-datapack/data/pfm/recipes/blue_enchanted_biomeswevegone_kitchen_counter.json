@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:blue_enchanted_biomeswevegone_kitchen_counter"
+  }
+}

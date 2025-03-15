@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:holly_biomeswevegone_kitchen_wall_counter"
+  }
+}

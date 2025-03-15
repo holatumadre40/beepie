@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:cika_biomeswevegone_kitchen_counter"
+  }
+}

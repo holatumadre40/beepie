@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_log"
+    },
+    {
+      "item": "biomeswevegone:baobab_log"
+    },
+    {
+      "item": "biomeswevegone:baobab_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:baobab_biomeswevegone_kitchen_counter"
+  }
+}

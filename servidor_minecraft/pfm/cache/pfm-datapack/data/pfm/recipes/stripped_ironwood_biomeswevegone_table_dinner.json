@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_ironwood_biomeswevegone_table_dinner"
+  }
+}

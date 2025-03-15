@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:aspen_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:aspen_biomeswevegone_log_stool"
+  }
+}

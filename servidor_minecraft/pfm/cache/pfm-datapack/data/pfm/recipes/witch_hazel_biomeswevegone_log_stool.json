@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:witch_hazel_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:witch_hazel_biomeswevegone_log_stool"
+  }
+}

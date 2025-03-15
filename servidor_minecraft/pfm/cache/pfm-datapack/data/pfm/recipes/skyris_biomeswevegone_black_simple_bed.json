@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "minecraft:black_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:skyris_biomeswevegone_black_simple_bed"
+  }
+}

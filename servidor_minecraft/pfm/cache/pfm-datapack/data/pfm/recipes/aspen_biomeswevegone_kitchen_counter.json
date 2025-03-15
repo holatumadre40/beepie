@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    },
+    {
+      "item": "biomeswevegone:aspen_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:aspen_biomeswevegone_kitchen_counter"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_baobab_biomeswevegone_kitchen_cabinet"
+  }
+}

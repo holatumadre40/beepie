@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_log"
+    },
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:fir_biomeswevegone_classic_nightstand"
+  }
+}

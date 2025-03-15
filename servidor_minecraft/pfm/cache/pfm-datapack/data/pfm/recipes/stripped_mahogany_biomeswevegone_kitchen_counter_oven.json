@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_mahogany_biomeswevegone_kitchen_counter_oven"
+  }
+}

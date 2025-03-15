@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_cika_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_cika_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_cika_biomeswevegone_chair_classic"
+  }
+}

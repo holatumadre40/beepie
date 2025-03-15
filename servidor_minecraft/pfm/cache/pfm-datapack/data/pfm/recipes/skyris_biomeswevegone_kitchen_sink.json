@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "pfm:skyris_biomeswevegone_kitchen_sink"
+  }
+}

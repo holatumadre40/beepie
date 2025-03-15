@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:florus_stem"
+    },
+    {
+      "item": "biomeswevegone:florus_stem"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:florus_biomeswevegone_chair"
+  }
+}

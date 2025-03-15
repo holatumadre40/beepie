@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pfm:white_mangrove_biomeswevegone_coffee_table_basic"
+        }
+      ],
+      "name": "white_mangrove_biomeswevegone_coffee_table_basic",
+      "rolls": 1.0
+    }
+  ]
+}

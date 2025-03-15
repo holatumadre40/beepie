@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:zelkova_biomeswevegone_kitchen_drawer"
+  }
+}

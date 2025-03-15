@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "minecraft:magenta_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:rainbow_eucalyptus_biomeswevegone_magenta_simple_bed"
+  }
+}

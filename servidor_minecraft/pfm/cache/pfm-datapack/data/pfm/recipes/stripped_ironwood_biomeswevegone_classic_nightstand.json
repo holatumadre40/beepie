@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_ironwood_biomeswevegone_classic_nightstand"
+  }
+}

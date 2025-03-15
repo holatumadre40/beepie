@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:palm_log"
+    },
+    {
+      "item": "biomeswevegone:palm_log"
+    },
+    {
+      "item": "biomeswevegone:palm_log"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:palm_biomeswevegone_classic_stool"
+  }
+}

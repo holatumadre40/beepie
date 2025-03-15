@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "minecraft:cyan_bed"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_fence"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:jacaranda_biomeswevegone_cyan_classic_bed"
+  }
+}

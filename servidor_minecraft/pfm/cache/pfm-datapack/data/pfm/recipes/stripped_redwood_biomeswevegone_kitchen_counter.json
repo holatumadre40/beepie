@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_redwood_log"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:stripped_redwood_biomeswevegone_kitchen_counter"
+  }
+}

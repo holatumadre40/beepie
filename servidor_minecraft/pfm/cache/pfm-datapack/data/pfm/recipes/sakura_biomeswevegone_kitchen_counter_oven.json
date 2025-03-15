@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:sakura_biomeswevegone_kitchen_counter_oven"
+  }
+}

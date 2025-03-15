@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_jacaranda_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_jacaranda_biomeswevegone_classic_stool"
+  }
+}

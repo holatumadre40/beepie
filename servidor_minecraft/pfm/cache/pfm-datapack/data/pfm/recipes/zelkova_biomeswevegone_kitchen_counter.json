@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    },
+    {
+      "item": "biomeswevegone:zelkova_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:zelkova_biomeswevegone_kitchen_counter"
+  }
+}

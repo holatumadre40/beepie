@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "minecraft:white_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:florus_biomeswevegone_white_simple_bed"
+  }
+}

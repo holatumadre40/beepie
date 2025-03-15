@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_log"
+    },
+    {
+      "item": "biomeswevegone:holly_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "pfm:holly_biomeswevegone_kitchen_wall_small_drawer"
+  }
+}

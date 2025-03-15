@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "pfm:white_mangrove_biomeswevegone_kitchen_sink"
+  }
+}

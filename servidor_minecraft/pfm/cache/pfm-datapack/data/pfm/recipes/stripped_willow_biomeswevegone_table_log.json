@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_willow_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_willow_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_willow_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_willow_biomeswevegone_table_log"
+  }
+}

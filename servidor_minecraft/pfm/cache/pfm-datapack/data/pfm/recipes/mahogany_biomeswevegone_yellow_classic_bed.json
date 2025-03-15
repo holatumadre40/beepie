@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "minecraft:yellow_bed"
+    },
+    {
+      "item": "biomeswevegone:mahogany_fence"
+    },
+    {
+      "item": "biomeswevegone:mahogany_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:mahogany_biomeswevegone_yellow_classic_bed"
+  }
+}

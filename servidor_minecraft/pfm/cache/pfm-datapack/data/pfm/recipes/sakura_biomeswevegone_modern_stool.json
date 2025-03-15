@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:sakura_log"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    },
+    {
+      "item": "biomeswevegone:sakura_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:sakura_biomeswevegone_modern_stool"
+  }
+}

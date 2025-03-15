@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_green_enchanted_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_green_enchanted_biomeswevegone_table_log"
+  }
+}

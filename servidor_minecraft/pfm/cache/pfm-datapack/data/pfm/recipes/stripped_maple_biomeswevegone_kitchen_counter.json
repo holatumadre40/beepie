@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_maple_log"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    },
+    {
+      "item": "biomeswevegone:maple_planks"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:stripped_maple_biomeswevegone_kitchen_counter"
+  }
+}

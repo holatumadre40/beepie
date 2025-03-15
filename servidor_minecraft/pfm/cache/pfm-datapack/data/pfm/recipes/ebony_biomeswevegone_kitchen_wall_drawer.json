@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_log"
+    },
+    {
+      "item": "biomeswevegone:ebony_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:ebony_biomeswevegone_kitchen_wall_drawer"
+  }
+}

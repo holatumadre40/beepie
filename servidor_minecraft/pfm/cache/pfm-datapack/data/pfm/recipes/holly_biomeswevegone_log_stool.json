@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:holly_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:holly_biomeswevegone_log_stool"
+  }
+}

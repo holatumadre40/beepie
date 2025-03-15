@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:mahogany_biomeswevegone_kitchen_counter"
+  }
+}

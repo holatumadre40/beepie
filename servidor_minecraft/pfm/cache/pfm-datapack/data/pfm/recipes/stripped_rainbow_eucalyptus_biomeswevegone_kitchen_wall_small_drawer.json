@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "pfm:stripped_rainbow_eucalyptus_biomeswevegone_kitchen_wall_small_drawer"
+  }
+}

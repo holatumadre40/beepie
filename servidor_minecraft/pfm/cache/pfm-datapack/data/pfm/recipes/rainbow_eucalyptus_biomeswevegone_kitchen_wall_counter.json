@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:rainbow_eucalyptus_biomeswevegone_kitchen_wall_counter"
+  }
+}

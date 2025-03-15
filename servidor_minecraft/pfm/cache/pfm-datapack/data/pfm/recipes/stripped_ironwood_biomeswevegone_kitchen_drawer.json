@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_ironwood_biomeswevegone_kitchen_drawer"
+  }
+}

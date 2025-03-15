@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_planks"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    },
+    {
+      "item": "biomeswevegone:jacaranda_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:jacaranda_biomeswevegone_kitchen_counter"
+  }
+}

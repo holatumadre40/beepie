@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:tainted_witherstormmod_classic_nightstand"
+  }
+}

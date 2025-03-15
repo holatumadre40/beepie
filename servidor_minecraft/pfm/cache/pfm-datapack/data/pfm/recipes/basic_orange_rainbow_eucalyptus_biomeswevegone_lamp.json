@@ -1,0 +1,29 @@
+{
+  "type": "pfm:furniture",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_rainbow_eucalyptus_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:basic_lamp",
+    "tag": {
+      "BlockEntityTag": {
+        "color": "orange",
+        "variant": "biomeswevegone:rainbow_eucalyptus"
+      }
+    }
+  }
+}

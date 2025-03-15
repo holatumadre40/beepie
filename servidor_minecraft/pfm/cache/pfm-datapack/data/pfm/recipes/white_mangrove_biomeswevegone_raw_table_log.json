@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:white_mangrove_biomeswevegone_raw_table_log"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_mahogany_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_mahogany_biomeswevegone_coffee_table_modern"
+  }
+}

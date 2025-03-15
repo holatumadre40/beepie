@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_log"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "biomeswevegone:cika_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:cika_biomeswevegone_kitchen_counter_oven"
+  }
+}

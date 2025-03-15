@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_log"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    },
+    {
+      "item": "biomeswevegone:mahogany_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:mahogany_biomeswevegone_simple_stool"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:skyris_biomeswevegone_kitchen_counter"
+  }
+}

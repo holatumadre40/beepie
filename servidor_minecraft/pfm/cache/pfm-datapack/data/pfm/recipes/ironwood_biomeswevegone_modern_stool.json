@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_log"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:ironwood_biomeswevegone_modern_stool"
+  }
+}

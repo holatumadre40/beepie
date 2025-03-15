@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_planks"
+    },
+    {
+      "item": "biomeswevegone:florus_stem"
+    },
+    {
+      "item": "biomeswevegone:florus_stem"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "pfm:florus_biomeswevegone_kitchen_wall_small_drawer"
+  }
+}

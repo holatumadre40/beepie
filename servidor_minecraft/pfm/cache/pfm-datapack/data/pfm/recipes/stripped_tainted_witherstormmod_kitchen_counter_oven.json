@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "witherstormmod:stripped_tainted_log"
+    },
+    {
+      "item": "witherstormmod:stripped_tainted_log"
+    },
+    {
+      "item": "witherstormmod:stripped_tainted_log"
+    },
+    {
+      "item": "witherstormmod:stripped_tainted_log"
+    },
+    {
+      "item": "witherstormmod:stripped_tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_tainted_witherstormmod_kitchen_counter_oven"
+  }
+}

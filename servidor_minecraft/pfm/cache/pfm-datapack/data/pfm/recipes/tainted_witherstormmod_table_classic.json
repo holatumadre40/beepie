@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_log"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:tainted_witherstormmod_table_classic"
+  }
+}

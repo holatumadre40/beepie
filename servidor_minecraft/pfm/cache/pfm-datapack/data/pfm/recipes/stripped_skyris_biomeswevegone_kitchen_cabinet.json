@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_skyris_biomeswevegone_kitchen_cabinet"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "minecraft:purple_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:holly_biomeswevegone_purple_simple_bed"
+  }
+}

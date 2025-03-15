@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:rainbow_eucalyptus_biomeswevegone_classic_nightstand"
+  }
+}

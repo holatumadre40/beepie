@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_log"
+    },
+    {
+      "item": "biomeswevegone:redwood_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "pfm:redwood_biomeswevegone_kitchen_wall_small_drawer"
+  }
+}

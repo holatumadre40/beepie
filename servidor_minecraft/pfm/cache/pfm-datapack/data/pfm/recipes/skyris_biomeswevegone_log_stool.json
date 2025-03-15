@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:skyris_biomeswevegone_log_stool"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "witherstormmod:tainted_planks"
+    },
+    {
+      "item": "minecraft:red_bed"
+    },
+    {
+      "item": "witherstormmod:tainted_fence"
+    },
+    {
+      "item": "witherstormmod:tainted_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:tainted_witherstormmod_red_classic_bed"
+  }
+}

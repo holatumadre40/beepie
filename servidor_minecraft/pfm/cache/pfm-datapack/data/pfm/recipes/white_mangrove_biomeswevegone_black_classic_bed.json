@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "minecraft:black_bed"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_fence"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:white_mangrove_biomeswevegone_black_classic_bed"
+  }
+}

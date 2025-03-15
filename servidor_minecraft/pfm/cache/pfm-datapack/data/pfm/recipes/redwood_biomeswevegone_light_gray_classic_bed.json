@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "biomeswevegone:redwood_planks"
+    },
+    {
+      "item": "minecraft:light_gray_bed"
+    },
+    {
+      "item": "biomeswevegone:redwood_fence"
+    },
+    {
+      "item": "biomeswevegone:redwood_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:redwood_biomeswevegone_light_gray_classic_bed"
+  }
+}

@@ -33,6 +33,17 @@
         "value": 2048
       }
     },
+    "witherstormmod:evolution_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:prot_shred": {
       "enabled": false,
       "min": {
@@ -108,6 +119,17 @@
       "max": {
         "default": 8,
         "value": 8
+      }
+    },
+    "witherstormmod:target_stationary_flying_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0.01,
+        "value": 0.01
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "irons_spellbooks:nature_magic_resist": {
@@ -187,6 +209,17 @@
         "value": 1024
       }
     },
+    "witherstormmod:slow_flying_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0.01,
+        "value": 0.01
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "palladium:punch_damage": {
       "enabled": false,
       "min": {
@@ -209,6 +242,17 @@
         "value": 100
       }
     },
+    "witherstormmod:hunchback_follow_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -229,6 +273,28 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "tacz:tacz.bullet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "undead_revamp2:cheroattackspeed": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "irons_spellbooks:summon_damage": {
@@ -275,6 +341,17 @@
         "value": 2048
       }
     },
+    "combatroll:distance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 24,
+        "value": 24
+      }
+    },
     "irons_spellbooks:cast_time_reduction": {
       "enabled": false,
       "min": {
@@ -317,6 +394,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "combatroll:recharge": {
+      "enabled": false,
+      "min": {
+        "default": 0.1,
+        "value": 0.1
+      },
+      "max": {
+        "default": 200,
+        "value": 200
       }
     },
     "attributeslib:dodge_chance": {
@@ -759,6 +847,17 @@
         "value": 100
       }
     },
+    "botania:pixie_spawn_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -801,6 +900,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "combatroll:count": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 20
       }
     },
     "skilltree:stealth": {

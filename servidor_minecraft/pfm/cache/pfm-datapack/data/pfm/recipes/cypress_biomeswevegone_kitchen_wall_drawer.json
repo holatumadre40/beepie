@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_planks"
+    },
+    {
+      "item": "biomeswevegone:cypress_log"
+    },
+    {
+      "item": "biomeswevegone:cypress_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:cypress_biomeswevegone_kitchen_wall_drawer"
+  }
+}

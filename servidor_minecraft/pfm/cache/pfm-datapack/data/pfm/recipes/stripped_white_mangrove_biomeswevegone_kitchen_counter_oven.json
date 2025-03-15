@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_white_mangrove_biomeswevegone_kitchen_counter_oven"
+  }
+}

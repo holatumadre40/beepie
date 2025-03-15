@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "biomeswevegone:ebony_planks"
+    },
+    {
+      "item": "minecraft:lime_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:ebony_biomeswevegone_lime_simple_bed"
+  }
+}

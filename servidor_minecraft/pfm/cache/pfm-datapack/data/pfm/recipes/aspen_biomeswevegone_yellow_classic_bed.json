@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "item": "minecraft:yellow_bed"
+    },
+    {
+      "item": "biomeswevegone:aspen_fence"
+    },
+    {
+      "item": "biomeswevegone:aspen_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:aspen_biomeswevegone_yellow_classic_bed"
+  }
+}

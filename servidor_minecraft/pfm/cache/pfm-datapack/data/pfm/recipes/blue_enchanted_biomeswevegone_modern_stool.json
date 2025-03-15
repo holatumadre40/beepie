@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:blue_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:blue_enchanted_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:blue_enchanted_biomeswevegone_modern_stool"
+  }
+}

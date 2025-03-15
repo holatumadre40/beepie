@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_log"
+    },
+    {
+      "item": "biomeswevegone:skyris_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:skyris_biomeswevegone_classic_nightstand"
+  }
+}

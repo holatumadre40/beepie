@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:willow_log"
+    },
+    {
+      "item": "biomeswevegone:willow_log"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:willow_biomeswevegone_chair"
+  }
+}

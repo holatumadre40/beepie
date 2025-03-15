@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:white_mangrove_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:white_mangrove_biomeswevegone_log_stool"
+  }
+}

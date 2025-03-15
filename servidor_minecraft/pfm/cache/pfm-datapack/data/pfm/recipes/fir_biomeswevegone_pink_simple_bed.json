@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "biomeswevegone:fir_planks"
+    },
+    {
+      "item": "minecraft:pink_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:fir_biomeswevegone_pink_simple_bed"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "biomeswevegone:zelkova_planks"
+    },
+    {
+      "item": "minecraft:black_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:zelkova_biomeswevegone_black_simple_bed"
+  }
+}

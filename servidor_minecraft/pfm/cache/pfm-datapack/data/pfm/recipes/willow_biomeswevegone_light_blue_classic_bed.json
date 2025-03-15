@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "minecraft:light_blue_bed"
+    },
+    {
+      "item": "biomeswevegone:willow_fence"
+    },
+    {
+      "item": "biomeswevegone:willow_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:willow_biomeswevegone_light_blue_classic_bed"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_planks"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:pine_biomeswevegone_kitchen_drawer"
+  }
+}

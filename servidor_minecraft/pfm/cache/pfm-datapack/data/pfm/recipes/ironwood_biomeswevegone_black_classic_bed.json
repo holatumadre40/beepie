@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "item": "minecraft:black_bed"
+    },
+    {
+      "item": "biomeswevegone:ironwood_fence"
+    },
+    {
+      "item": "biomeswevegone:ironwood_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:ironwood_biomeswevegone_black_classic_bed"
+  }
+}

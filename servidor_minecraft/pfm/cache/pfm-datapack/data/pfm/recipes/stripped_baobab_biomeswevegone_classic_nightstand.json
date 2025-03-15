@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_baobab_biomeswevegone_classic_nightstand"
+  }
+}

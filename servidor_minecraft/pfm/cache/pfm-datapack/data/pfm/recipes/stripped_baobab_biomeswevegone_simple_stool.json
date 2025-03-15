@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:baobab_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_baobab_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_baobab_biomeswevegone_simple_stool"
+  }
+}

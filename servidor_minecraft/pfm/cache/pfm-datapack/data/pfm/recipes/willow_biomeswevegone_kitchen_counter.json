@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_planks"
+    },
+    {
+      "item": "biomeswevegone:willow_log"
+    },
+    {
+      "item": "biomeswevegone:willow_log"
+    },
+    {
+      "item": "biomeswevegone:willow_log"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:willow_biomeswevegone_kitchen_counter"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "minecraft:red_bed"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_fence"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_fence"
+    }
+  ],
+  "result": {
+    "item": "pfm:green_enchanted_biomeswevegone_red_classic_bed"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "pfm:palm_biomeswevegone_kitchen_wall_counter"
+  }
+}

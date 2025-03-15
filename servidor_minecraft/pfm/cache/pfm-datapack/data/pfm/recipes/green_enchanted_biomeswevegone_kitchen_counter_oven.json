@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_log"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "biomeswevegone:green_enchanted_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:green_enchanted_biomeswevegone_kitchen_counter_oven"
+  }
+}

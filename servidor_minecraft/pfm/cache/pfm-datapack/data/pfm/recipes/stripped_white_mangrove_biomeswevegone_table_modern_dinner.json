@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:white_mangrove_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_white_mangrove_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_white_mangrove_biomeswevegone_table_modern_dinner"
+  }
+}

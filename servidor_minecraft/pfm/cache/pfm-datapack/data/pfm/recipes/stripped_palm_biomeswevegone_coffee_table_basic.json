@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:palm_planks"
+    },
+    {
+      "item": "biomeswevegone:stripped_palm_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_palm_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_palm_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:stripped_palm_biomeswevegone_coffee_table_basic"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "372c2d5eb76f3f6da4f2a1ab9f67bc70"
+	name: "blueby87#372c2d5e"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

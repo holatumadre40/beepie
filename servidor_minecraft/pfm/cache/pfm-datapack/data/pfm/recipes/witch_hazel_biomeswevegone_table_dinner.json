@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:witch_hazel_log"
+    },
+    {
+      "item": "biomeswevegone:witch_hazel_log"
+    },
+    {
+      "item": "biomeswevegone:witch_hazel_log"
+    },
+    {
+      "item": "biomeswevegone:witch_hazel_planks"
+    },
+    {
+      "item": "biomeswevegone:witch_hazel_planks"
+    },
+    {
+      "item": "biomeswevegone:witch_hazel_planks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:witch_hazel_biomeswevegone_table_dinner"
+  }
+}

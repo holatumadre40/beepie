@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    },
+    {
+      "item": "biomeswevegone:pine_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "pfm:pine_biomeswevegone_raw_table_log"
+  }
+}

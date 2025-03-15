@@ -1,0 +1,36 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:stripped_holly_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_holly_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_holly_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_holly_log"
+    },
+    {
+      "item": "biomeswevegone:stripped_holly_log"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "biomeswevegone:holly_planks"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_holly_biomeswevegone_kitchen_counter_oven"
+  }
+}
