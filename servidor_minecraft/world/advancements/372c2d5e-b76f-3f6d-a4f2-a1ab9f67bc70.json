@@ -23,18 +23,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-03-15 02:12:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_sandstone": {
-    "criteria": {
-      "has_sand": "2025-03-15 02:12:09 +0000"
-    },
-    "done": true
-  },
   "cataclysm:root": {
     "criteria": {
       "custom_test_name": "2025-03-15 02:10:21 +0000"
@@ -53,6 +41,36 @@
       "minecraft:stony_shore": "2025-03-15 02:10:22 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-03-15 02:12:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-03-15 02:12:09 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:saber": {
+    "criteria": {
+      "has_saber": "2025-03-15 02:48:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-03-15 02:48:32 +0000"
+    },
+    "done": true
+  },
+  "man:feelingwatched": {
+    "criteria": {
+      "feelingwatched_0": "2025-03-15 02:48:21 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
