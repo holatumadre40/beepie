@@ -233,3 +233,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingo
 [15Mar2025 02:46:05.279] [Server thread/INFO] [Jade/]: Syncing config to blueby87 (372c2d5e-b76f-3f6d-a4f2-a1ab9f67bc70)
 [15Mar2025 02:48:15.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has made the advancement [Swashbuckler]
 [15Mar2025 02:48:21.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has reached the goal [Feeling Watched]
+[15Mar2025 02:59:24.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has reached the goal [Quaint Scribe]
+[15Mar2025 02:59:39.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: The difficulty has been set to Peaceful]
+[15Mar2025 02:59:45.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: The difficulty has been set to Easy]
+[15Mar2025 03:00:29.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has made the advancement [Magery]
+[15Mar2025 03:02:44.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has made the advancement [Monster Hunter]
+[15Mar2025 03:03:33.517] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/197, l='ServerLevel[world]', x=113.49, y=83.00, z=105.58] died, message: 'Unemployed suffocated in a wall'
