@@ -1,138 +1,369 @@
-[14Mar2025 23:02:23.636] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[14Mar2025 23:02:23.640] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[14Mar2025 23:02:24.026] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Mar2025 23:02:24.076] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/beepie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[14Mar2025 23:02:24.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[14Mar2025 23:02:24.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Mar2025 23:02:24.334] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Mar2025 23:02:24.335] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[14Mar2025 23:02:24.492] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
-[14Mar2025 23:02:26.340] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Mar2025 23:02:26.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14Mar2025 23:02:27.744] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[14Mar2025 23:02:33.688] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14Mar2025 23:02:33.772] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[14Mar2025 23:02:33.773] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[14Mar2025 23:02:33.829] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[14Mar2025 23:02:34.046] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[14Mar2025 23:02:34.140] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[14Mar2025 23:02:34.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[14Mar2025 23:02:34.148] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[14Mar2025 23:02:34.151] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[14Mar2025 23:02:34.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[14Mar2025 23:02:34.159] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[14Mar2025 23:02:36.217] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/beepie/servidor_minecraft/config/curios-common.toml is not correct. Correcting
-[14Mar2025 23:02:36.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slots was corrected from null to its default, []. 
-[14Mar2025 23:02:36.617] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Mar2025 23:02:36.816] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[14Mar2025 23:02:36.817] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[14Mar2025 23:02:36.817] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[14Mar2025 23:02:36.817] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[14Mar2025 23:02:36.818] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[14Mar2025 23:02:36.818] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[14Mar2025 23:02:36.818] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[14Mar2025 23:02:36.945] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[14Mar2025 23:02:36.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[14Mar2025 23:02:36.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[14Mar2025 23:02:36.977] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[14Mar2025 23:02:36.983] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[14Mar2025 23:02:36.986] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[14Mar2025 23:02:36.987] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
-[14Mar2025 23:02:37.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[14Mar2025 23:02:38.952] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Mar2025 23:02:40.106] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/beepie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/assets/.mcassetsroot' uses unexpected schema
-[14Mar2025 23:02:40.107] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/beepie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23137!/data/.mcassetsroot' uses unexpected schema
-[14Mar2025 23:02:42.271] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[14Mar2025 23:02:42.454] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3023 advancements
-[14Mar2025 23:02:42.467] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[14Mar2025 23:02:42.471] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[14Mar2025 23:02:43.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Mar2025 23:02:43.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Mar2025 23:02:43.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Mar2025 23:02:43.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Mar2025 23:02:43.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Mar2025 23:02:43.581] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Mar2025 23:02:43.662] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Mar2025 23:02:43.663] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Mar2025 23:02:43.664] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Mar2025 23:02:43.664] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Mar2025 23:02:43.684] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/curios-server.toml is not correct. Correcting
-[14Mar2025 23:02:43.685] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key keepCurios was corrected from null to its default, DEFAULT. 
-[14Mar2025 23:02:43.686] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu was corrected from null to its default, SimpleCommentedConfig:{}. 
-[14Mar2025 23:02:43.686] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.enableLegacyMenu was corrected from null to its default, false. 
-[14Mar2025 23:02:43.686] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
-[14Mar2025 23:02:43.687] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.minimumColumns was corrected from null to its default, 1. 
-[14Mar2025 23:02:43.687] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key menu.experimental.maxSlotsPerPage was corrected from null to its default, 48. 
-[14Mar2025 23:02:43.691] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[14Mar2025 23:02:43.693] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[14Mar2025 23:02:43.695] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[14Mar2025 23:02:43.696] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[14Mar2025 23:02:43.699] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ableToBreakMines was corrected from null to its default, true. 
-[14Mar2025 23:02:43.700] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[14Mar2025 23:02:43.702] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[14Mar2025 23:02:43.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[14Mar2025 23:02:43.705] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[14Mar2025 23:02:43.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 2. 
-[14Mar2025 23:02:43.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[14Mar2025 23:02:43.709] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[14Mar2025 23:02:43.710] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[14Mar2025 23:02:43.711] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[14Mar2025 23:02:43.712] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[14Mar2025 23:02:43.714] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[14Mar2025 23:02:43.716] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[14Mar2025 23:02:43.717] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[14Mar2025 23:02:43.718] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[14Mar2025 23:02:43.719] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[14Mar2025 23:02:43.720] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[14Mar2025 23:02:43.721] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[14Mar2025 23:02:43.722] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[14Mar2025 23:02:43.723] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[14Mar2025 23:02:43.724] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[14Mar2025 23:02:43.726] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[14Mar2025 23:02:43.727] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[14Mar2025 23:02:43.729] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[14Mar2025 23:02:43.731] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[14Mar2025 23:02:43.733] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[14Mar2025 23:02:43.734] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[14Mar2025 23:02:43.736] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[14Mar2025 23:02:43.737] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[14Mar2025 23:02:43.739] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[14Mar2025 23:02:43.741] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[14Mar2025 23:02:44.385] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[14Mar2025 23:02:44.386] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[14Mar2025 23:02:44.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Mar2025 23:02:49.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Mar2025 23:02:52.498] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.499] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.500] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.500] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.501] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.502] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.502] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2025 23:02:52.936] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[14Mar2025 23:02:53.436] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[14Mar2025 23:02:53.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4072 ms
-[14Mar2025 23:02:53.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.831s)! For help, type "help"
-[14Mar2025 23:02:53.538] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Mar2025 23:02:53.541] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[14Mar2025 23:02:53.541] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[14Mar2025 23:03:05.858] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: blueby87[/127.126.94.66:43273] logged in with entity id 165 at (-16.085699836924864, 64.0, -345.9689521545356)
-[14Mar2025 23:03:05.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 joined the game
-[14Mar2025 23:03:06.147] [Server thread/INFO] [Jade/]: Syncing config to blueby87 (372c2d5e-b76f-3f6d-a4f2-a1ab9f67bc70)
-[14Mar2025 23:04:53.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 has made the advancement [Amateur Archaeologist]
-[14Mar2025 23:11:26.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: Set own game mode to Survival Mode]
-[14Mar2025 23:11:44.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: Set own game mode to Creative Mode]
-[14Mar2025 23:12:07.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: Set own game mode to Survival Mode]
-[14Mar2025 23:12:37.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [blueby87: Set own game mode to Creative Mode]
-[14Mar2025 23:13:46.146] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: blueby87 lost connection: Disconnected
-[14Mar2025 23:13:46.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 left the game
-[14Mar2025 23:13:53.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Mar2025 23:13:53.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Mar2025 23:13:53.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Mar2025 23:13:53.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Mar2025 23:13:54.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Mar2025 23:13:54.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Mar2025 23:13:54.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Mar2025 23:13:54.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Mar2025 23:13:54.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Mar2025 23:13:54.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15Mar2025 00:13:57.222] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[15Mar2025 00:13:57.227] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[15Mar2025 00:13:57.631] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[15Mar2025 00:13:57.673] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/beepie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[15Mar2025 00:13:57.930] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 00:13:57.931] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 00:13:57.932] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 00:13:57.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/beepie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[15Mar2025 00:13:58.070] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[15Mar2025 00:13:59.973] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15Mar2025 00:14:00.073] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[15Mar2025 00:14:01.804] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15Mar2025 00:14:06.168] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[15Mar2025 00:14:07.811] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[15Mar2025 00:14:08.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[15Mar2025 00:14:08.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[15Mar2025 00:14:08.080] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[15Mar2025 00:14:08.081] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[15Mar2025 00:14:08.083] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[15Mar2025 00:14:08.085] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[15Mar2025 00:14:08.090] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[15Mar2025 00:14:08.091] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[15Mar2025 00:14:08.206] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.208] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[15Mar2025 00:14:08.310] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/beepie/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[15Mar2025 00:14:08.317] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:08.318] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Illagers in raids attack animals? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.318] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Witches attack villagers? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.318] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Have Illusioners in raids? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.318] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Have Illagers have some common sense? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.319] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:08.319] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.Guards attack all mobs? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.320] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.All mobs attack guards was corrected from null to its default, false. 
+[15Mar2025 00:14:08.323] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.Mob Blacklist was corrected from null to its default, [minecraft:villager, minecraft:iron_golem, minecraft:wandering_trader, guardvillagers:guard, minecraft:creeper, alexsmobs:komodo_dragon, minecraft:enderman]. 
+[15Mar2025 00:14:08.323] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.Mob Whitelist was corrected from null to its default, []. 
+[15Mar2025 00:14:08.324] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:08.324] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Allow armorers and weaponsmiths repair guard items when down below half durability? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.325] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Make it so players have to have hero of the village to convert villagers into guards? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.325] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have it so blacksmiths heal golems under 60 health? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.325] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have it so clerics heal guards and players with hero of the village? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.325] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have Villagers have some common sense? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.332] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key golem stuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:08.332] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key golem stuff.Allow Iron Golems to float on water? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow the player to right click on bells to mass order guards to follow them? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards patrol the village regularly? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Chance to drop equipment was corrected from null to its default, 100.0. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards have some common sense? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.333] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards open doors? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards raise their shield all the time? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Chance for guards to lose durability was corrected from null to its default, 1.0. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow guards to teleport if following the player was corrected from null to its default, true. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards form a phalanx? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards attempt to avoid firing into other friendlies? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Range was corrected from null to its default, 50.0. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Guard health regeneration amount was corrected from null to its default, 1.0. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false was corrected from null to its default, true. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow players to give guards stuff only if they have the hero of the village effect? was corrected from null to its default, false. 
+[15Mar2025 00:14:08.334] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow players to set guard patrol points only if they have hero of the village was corrected from null to its default, false. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Minimum reputation requirement for guards to give you access to their inventories was corrected from null to its default, 15. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Guard health was corrected from null to its default, 20.0. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Guard speed was corrected from null to its default, 0.5. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Guard follow range was corrected from null to its default, 20.0. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards only follow the player if they have hero of the village? was corrected from null to its default, true. 
+[15Mar2025 00:14:08.341] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.How low of a reputation of a player should have to be instantly aggroed upon by guards and golems? was corrected from null to its default, -100. 
+[15Mar2025 00:14:08.494] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[15Mar2025 00:14:08.497] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[15Mar2025 00:14:08.498] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[15Mar2025 00:14:08.746] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[15Mar2025 00:14:08.746] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[15Mar2025 00:14:08.773] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[15Mar2025 00:14:18.929] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/beepie/servidor_minecraft/config/spartanshields-common.toml is not correct. Correcting
+[15Mar2025 00:14:18.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.vanilla_only was corrected from null to its default, false. 
+[15Mar2025 00:14:18.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.force_disable_uncraftable_tooltips was corrected from null to its default, false. 
+[15Mar2025 00:14:18.930] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tower_shield_durability_multiplier was corrected from null to its default, 1.25. 
+[15Mar2025 00:14:18.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield_bash was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield_bash.cooldown was corrected from null to its default, 30. 
+[15Mar2025 00:14:18.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield_bash.cooldown_tower was corrected from null to its default, 50. 
+[15Mar2025 00:14:18.931] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shield_bash.disabled was corrected from null to its default, false. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.wood was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.wood.durability was corrected from null to its default, 104. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.stone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.stone.durability was corrected from null to its default, 230. 
+[15Mar2025 00:14:18.932] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.copper.durability was corrected from null to its default, 400. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.iron was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.iron.durability was corrected from null to its default, 538. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.gold was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.gold.durability was corrected from null to its default, 192. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.diamond was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.933] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.diamond.durability was corrected from null to its default, 2560. 
+[15Mar2025 00:14:18.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.netherite was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.netherite.durability was corrected from null to its default, 3554. 
+[15Mar2025 00:14:18.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.obsidian was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.obsidian.durability was corrected from null to its default, 1600. 
+[15Mar2025 00:14:18.934] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla.obsidian.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.tin was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.tin.durability was corrected from null to its default, 320. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.tin.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.bronze was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.935] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.bronze.durability was corrected from null to its default, 680. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.bronze.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.steel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.steel.durability was corrected from null to its default, 800. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.steel.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.silver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.silver.durability was corrected from null to its default, 216. 
+[15Mar2025 00:14:18.936] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.silver.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.electrum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.electrum.durability was corrected from null to its default, 320. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.electrum.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.lead was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.lead.durability was corrected from null to its default, 480. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.lead.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.937] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.938] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.nickel.durability was corrected from null to its default, 420. 
+[15Mar2025 00:14:18.938] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.nickel.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.940] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.invar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.940] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.invar.durability was corrected from null to its default, 720. 
+[15Mar2025 00:14:18.941] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.invar.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.941] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.constantan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.941] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.constantan.durability was corrected from null to its default, 640. 
+[15Mar2025 00:14:18.941] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.constantan.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.942] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.platinum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.942] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.platinum.durability was corrected from null to its default, 1536. 
+[15Mar2025 00:14:18.942] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.platinum.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.943] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.aluminum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.943] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.aluminum.durability was corrected from null to its default, 720. 
+[15Mar2025 00:14:18.944] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_common.aluminum.disable was corrected from null to its default, false. 
+[15Mar2025 00:14:18.945] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.945] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.manasteel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.945] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.manasteel.durability was corrected from null to its default, 450. 
+[15Mar2025 00:14:18.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.terrasteel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.terrasteel.durability was corrected from null to its default, 2920. 
+[15Mar2025 00:14:18.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.elementium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.947] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_botania.elementium.durability was corrected from null to its default, 1080. 
+[15Mar2025 00:14:18.948] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.948] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.osmium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.948] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.osmium.durability was corrected from null to its default, 750. 
+[15Mar2025 00:14:18.948] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.lapis_lazuli was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.948] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.lapis_lazuli.durability was corrected from null to its default, 300. 
+[15Mar2025 00:14:18.949] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.refined_glowstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.949] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.refined_glowstone.durability was corrected from null to its default, 450. 
+[15Mar2025 00:14:18.949] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.refined_obsidian was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.949] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_mekanism.refined_obsidian.durability was corrected from null to its default, 3750. 
+[15Mar2025 00:14:18.951] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.951] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.signalum was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.952] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.signalum.durability was corrected from null to its default, 2048. 
+[15Mar2025 00:14:18.952] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.lumium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.952] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.lumium.durability was corrected from null to its default, 1280. 
+[15Mar2025 00:14:18.952] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.enderium was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.953] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_thermal.enderium.durability was corrected from null to its default, 3120. 
+[15Mar2025 00:14:18.954] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_powered was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Mar2025 00:14:18.954] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modded_powered.damageToFEMultpier was corrected from null to its default, 50. 
+[15Mar2025 00:14:18.955] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[15Mar2025 00:14:18.958] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[15Mar2025 00:14:18.958] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[15Mar2025 00:14:18.959] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[15Mar2025 00:14:18.960] [Thread-1/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[15Mar2025 00:14:18.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/beepie/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[15Mar2025 00:14:19.046] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[15Mar2025 00:14:19.135] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[15Mar2025 00:14:19.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[15Mar2025 00:14:19.590] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15Mar2025 00:14:19.591] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[15Mar2025 00:14:19.591] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[15Mar2025 00:14:19.591] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[15Mar2025 00:14:19.592] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[15Mar2025 00:14:19.592] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[15Mar2025 00:14:19.592] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[15Mar2025 00:14:19.738] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[15Mar2025 00:14:19.778] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[15Mar2025 00:14:19.788] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[15Mar2025 00:14:19.793] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[15Mar2025 00:14:19.794] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[15Mar2025 00:14:19.817] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[15Mar2025 00:14:19.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[15Mar2025 00:14:20.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[15Mar2025 00:14:20.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[15Mar2025 00:14:20.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.10 Target: 1.20-1.6.5
+[15Mar2025 00:14:20.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Mar2025 00:14:20.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[15Mar2025 00:14:22.390] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15Mar2025 00:14:22.696] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:wooden_basic_shield Expected: 1432 Got: 6324
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:wooden_tower_shield Expected: 1433 Got: 6325
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:stone_basic_shield Expected: 1434 Got: 6326
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:stone_tower_shield Expected: 1435 Got: 6327
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:copper_basic_shield Expected: 1436 Got: 6328
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:copper_tower_shield Expected: 1437 Got: 6329
+[15Mar2025 00:14:22.697] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:iron_basic_shield Expected: 1438 Got: 6330
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:iron_tower_shield Expected: 1439 Got: 6331
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:golden_basic_shield Expected: 1440 Got: 6332
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:golden_tower_shield Expected: 1441 Got: 6333
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:diamond_basic_shield Expected: 1442 Got: 6334
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:diamond_tower_shield Expected: 1443 Got: 6335
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:netherite_basic_shield Expected: 1444 Got: 6336
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:netherite_tower_shield Expected: 1445 Got: 6337
+[15Mar2025 00:14:22.698] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:obsidian_basic_shield Expected: 1446 Got: 6338
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:obsidian_tower_shield Expected: 1447 Got: 6339
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:tin_basic_shield Expected: 1448 Got: 6340
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:tin_tower_shield Expected: 1449 Got: 6341
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:bronze_basic_shield Expected: 1450 Got: 6342
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:bronze_tower_shield Expected: 1451 Got: 6343
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:steel_basic_shield Expected: 1452 Got: 6344
+[15Mar2025 00:14:22.699] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:steel_tower_shield Expected: 1453 Got: 6345
+[15Mar2025 00:14:22.701] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:silver_basic_shield Expected: 1454 Got: 6346
+[15Mar2025 00:14:22.701] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:silver_tower_shield Expected: 1455 Got: 6347
+[15Mar2025 00:14:22.703] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:electrum_basic_shield Expected: 1456 Got: 6348
+[15Mar2025 00:14:22.703] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:electrum_tower_shield Expected: 1457 Got: 6349
+[15Mar2025 00:14:22.703] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:lead_basic_shield Expected: 1458 Got: 6350
+[15Mar2025 00:14:22.703] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:lead_tower_shield Expected: 1459 Got: 6351
+[15Mar2025 00:14:22.705] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:nickel_basic_shield Expected: 1460 Got: 6352
+[15Mar2025 00:14:22.705] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:nickel_tower_shield Expected: 1461 Got: 6353
+[15Mar2025 00:14:22.706] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:invar_basic_shield Expected: 1462 Got: 6354
+[15Mar2025 00:14:22.706] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:invar_tower_shield Expected: 1463 Got: 6355
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:constantan_basic_shield Expected: 1464 Got: 6356
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:constantan_tower_shield Expected: 1465 Got: 6357
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:platinum_basic_shield Expected: 1466 Got: 6358
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:platinum_tower_shield Expected: 1467 Got: 6359
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:aluminum_basic_shield Expected: 1468 Got: 6360
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:aluminum_tower_shield Expected: 1469 Got: 6361
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:manasteel_basic_shield Expected: 1470 Got: 6362
+[15Mar2025 00:14:22.707] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:manasteel_tower_shield Expected: 1471 Got: 6363
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:terrasteel_basic_shield Expected: 1472 Got: 6364
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:terrasteel_tower_shield Expected: 1473 Got: 6365
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:elementium_basic_shield Expected: 1474 Got: 6366
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:elementium_tower_shield Expected: 1475 Got: 6367
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:osmium_basic_shield Expected: 1476 Got: 6368
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:lapis_lazuli_basic_shield Expected: 1477 Got: 6369
+[15Mar2025 00:14:22.708] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:refined_glowstone_basic_shield Expected: 1478 Got: 6370
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:refined_obsidian_basic_shield Expected: 1479 Got: 6371
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:basic_mekanists_basic_shield Expected: 1480 Got: 6372
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:basic_mekanists_tower_shield Expected: 1481 Got: 6373
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:advanced_mekanists_basic_shield Expected: 1482 Got: 6374
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:advanced_mekanists_tower_shield Expected: 1483 Got: 6375
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:elite_mekanists_basic_shield Expected: 1484 Got: 6376
+[15Mar2025 00:14:22.709] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:elite_mekanists_tower_shield Expected: 1485 Got: 6377
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:ultimate_mekanists_basic_shield Expected: 1486 Got: 6378
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:ultimate_mekanists_tower_shield Expected: 1487 Got: 6379
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:dark_steel_riot_basic_shield Expected: 1488 Got: 6380
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:dark_steel_riot_tower_shield Expected: 1489 Got: 6381
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:signalum_basic_shield Expected: 1490 Got: 6382
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:signalum_tower_shield Expected: 1491 Got: 6383
+[15Mar2025 00:14:22.710] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:lumium_basic_shield Expected: 1492 Got: 6384
+[15Mar2025 00:14:22.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:lumium_tower_shield Expected: 1493 Got: 6385
+[15Mar2025 00:14:22.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:enderium_basic_shield Expected: 1494 Got: 6386
+[15Mar2025 00:14:22.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:enderium_tower_shield Expected: 1495 Got: 6387
+[15Mar2025 00:14:22.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: guardvillagers:guard_spawn_egg Expected: 2709 Got: 6388
+[15Mar2025 00:14:22.711] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: guardvillagers:illusioner_spawn_egg Expected: 2710 Got: 6389
+[15Mar2025 00:14:22.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: spartanshields:shield.bash.hit Expected: 1613 Got: 1662
+[15Mar2025 00:14:22.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: spartanshields:shield.bash.miss Expected: 1614 Got: 1663
+[15Mar2025 00:14:22.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: spartanshields:shield.payback.charge Expected: 1615 Got: 1664
+[15Mar2025 00:14:22.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: guardvillagers:entity.guard.ambient Expected: 1644 Got: 1665
+[15Mar2025 00:14:22.712] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: guardvillagers:entity.guard.death Expected: 1645 Got: 1666
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: guardvillagers:entity.guard.hurt Expected: 1646 Got: 1667
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: guardvillagers:entity.guard.yes Expected: 1647 Got: 1668
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: guardvillagers:entity.guard.no Expected: 1648 Got: 1669
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: spartanshields:spikes Expected: 40 Got: 49
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: spartanshields:firebrand Expected: 41 Got: 50
+[15Mar2025 00:14:22.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:enchantment: Object did not get ID it asked for. Name: spartanshields:payback Expected: 42 Got: 51
+[15Mar2025 00:14:22.714] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: guardvillagers:guard Expected: 135 Got: 204
+[15Mar2025 00:14:24.089] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/beepie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[15Mar2025 00:14:24.090] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/beepie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[15Mar2025 00:14:25.364] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[15Mar2025 00:14:26.093] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[15Mar2025 00:14:26.155] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[15Mar2025 00:14:26.259] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[15Mar2025 00:14:26.426] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[15Mar2025 00:14:26.427] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.446] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[15Mar2025 00:14:26.446] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.460] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[15Mar2025 00:14:26.461] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.486] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[15Mar2025 00:14:26.486] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[15Mar2025 00:14:26.501] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[15Mar2025 00:14:26.502] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[15Mar2025 00:14:26.507] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[15Mar2025 00:14:26.507] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[15Mar2025 00:14:26.515] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[15Mar2025 00:14:26.516] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[15Mar2025 00:14:26.538] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[15Mar2025 00:14:26.539] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[15Mar2025 00:14:26.539] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[15Mar2025 00:14:26.539] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.549] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[15Mar2025 00:14:26.550] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[15Mar2025 00:14:26.558] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[15Mar2025 00:14:26.558] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[15Mar2025 00:14:26.574] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[15Mar2025 00:14:26.574] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.575] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[15Mar2025 00:14:26.575] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[15Mar2025 00:14:26.586] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[15Mar2025 00:14:26.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[15Mar2025 00:14:26.589] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[15Mar2025 00:14:26.590] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[15Mar2025 00:14:26.591] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[15Mar2025 00:14:26.591] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[15Mar2025 00:14:26.609] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[15Mar2025 00:14:26.609] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[15Mar2025 00:14:26.612] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[15Mar2025 00:14:26.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[15Mar2025 00:14:26.619] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[15Mar2025 00:14:26.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[15Mar2025 00:14:26.628] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[15Mar2025 00:14:26.628] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[15Mar2025 00:14:26.634] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[15Mar2025 00:14:26.664] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[15Mar2025 00:14:26.742] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[15Mar2025 00:14:26.765] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[15Mar2025 00:14:26.772] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[15Mar2025 00:14:26.805] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3616 advancements
+[15Mar2025 00:14:26.812] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[15Mar2025 00:14:26.817] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[15Mar2025 00:14:28.048] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 4.678581ms
+[15Mar2025 00:14:28.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[15Mar2025 00:14:28.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[15Mar2025 00:14:28.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[15Mar2025 00:14:28.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15Mar2025 00:14:28.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[15Mar2025 00:14:28.324] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[15Mar2025 00:14:28.402] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15Mar2025 00:14:28.403] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[15Mar2025 00:14:28.403] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15Mar2025 00:14:28.404] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[15Mar2025 00:14:29.094] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[15Mar2025 00:14:29.095] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[15Mar2025 00:14:29.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[15Mar2025 00:14:34.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15Mar2025 00:14:38.084] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.103] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.104] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.105] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.105] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.419] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Mar2025 00:14:38.919] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[15Mar2025 00:14:39.250] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4332 ms
+[15Mar2025 00:14:39.251] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.833s)! For help, type "help"
+[15Mar2025 00:14:39.290] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15Mar2025 00:14:39.292] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[15Mar2025 00:14:39.292] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[15Mar2025 00:19:02.447] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a0d835e[id=<null>,name=blueby87,properties={},legacy=false] (/127.126.94.66:38373) lost connection: Disconnected
+[15Mar2025 00:19:09.548] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: blueby87[/127.126.94.66:57311] logged in with entity id 45 at (1516.1114309799655, 73.0, -2556.2300061887927)
+[15Mar2025 00:19:09.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 joined the game
+[15Mar2025 00:19:09.651] [Server thread/INFO] [Jade/]: Syncing config to blueby87 (372c2d5e-b76f-3f6d-a4f2-a1ab9f67bc70)
+[15Mar2025 00:19:12.063] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2470ms or 49 ticks behind
+[15Mar2025 00:28:29.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: blueby87 lost connection: Disconnected
+[15Mar2025 00:28:29.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: blueby87 left the game
+[15Mar2025 00:28:35.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15Mar2025 00:28:35.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15Mar2025 00:28:35.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15Mar2025 00:28:35.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15Mar2025 00:28:36.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15Mar2025 00:28:36.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15Mar2025 00:28:36.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15Mar2025 00:28:36.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15Mar2025 00:28:36.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15Mar2025 00:28:36.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
