@@ -66,17 +66,6 @@
         "value": 10
       }
     },
-    "irons_spellbooks:nature_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:armor_shred": {
       "enabled": false,
       "min": {
@@ -97,6 +86,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "irons_spellbooks:nature_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:entity_gravity": {
@@ -187,6 +187,17 @@
         "value": 1024
       }
     },
+    "palladium:punch_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "irons_spellbooks:fire_spell_power": {
       "enabled": false,
       "min": {
@@ -231,6 +242,17 @@
         "value": 100
       }
     },
+    "palladium:levitation_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
     "irons_spellbooks:eldritch_spell_power": {
       "enabled": false,
       "min": {
@@ -240,6 +262,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "palladium:destroy_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -297,6 +330,17 @@
         "value": 1
       }
     },
+    "palladium:flight_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32,
+        "value": 32
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -308,17 +352,6 @@
         "value": 1
       }
     },
-    "irons_spellbooks:ice_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -328,6 +361,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "irons_spellbooks:ice_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.attack_knockback": {
@@ -385,6 +429,17 @@
         "value": 1000000
       }
     },
+    "palladium:flight_flexibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -405,6 +460,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "palladium:jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "traveloptics:aqua_spell_power": {
@@ -605,6 +671,17 @@
         "value": 34
       }
     },
+    "palladium:leaping": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -801,6 +878,28 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "palladium:heroic_flight_type": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "palladium:fall_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     }
   }
